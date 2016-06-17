@@ -1,4 +1,4 @@
-FROM serverbase
+FROM wdhouse/serverbase
 
 ENV ZABBIX_VERSION 2.4 
 RUN wget http://repo.zabbix.com/zabbix/${ZABBIX_VERSION}/ubuntu/pool/main/z/zabbix-release/zabbix-release_${ZABBIX_VERSION}-1+trusty_all.deb -O /tmp/zabbix-release_${ZABBIX_VERSION}-1+trusty_all.deb
